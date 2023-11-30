@@ -1,0 +1,7 @@
+{
+  "$id": "ce_service",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v2",
+  "description": "",
+  "displayName": "Service",
+  "pluralDisplayName": "Services"
+}

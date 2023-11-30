@@ -1,0 +1,6 @@
+{
+    "$id": "smolder-commuting-override-f9211",
+    "$schema": "https://schema.yext.com/config/pages/repository/v1",
+    "repoUrl": "https://github.com/newspaper-fur-noise/basic-template-answers-site-${{businessId}}.com",
+    "templateRepo": "https://github.com/yext-pages/answers-template-basic-free-trial-solution"
+}

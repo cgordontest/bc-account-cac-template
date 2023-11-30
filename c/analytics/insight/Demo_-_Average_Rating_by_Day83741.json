@@ -1,0 +1,23 @@
+{
+  "$id": "c_Demo_-_Average_Rating_by_Day83741",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Demo - Average Rating by Day",
+  "description": "Average Rating by Day",
+  "query": {
+    "metrics": [
+      "yext/DEMO_AVERAGE_RATING"
+    ],
+    "dimensions": [
+      "yext/DAYS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_14"
+      }
+    ]
+  },
+  "display": {
+    "line": {}
+  }
+}

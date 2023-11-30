@@ -1,0 +1,9 @@
+{
+  "$id": "c_customSampleTypeField",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Custom Sample Type Field",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_sampleCustomFieldType"
+}

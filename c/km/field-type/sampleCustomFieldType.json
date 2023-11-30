@@ -1,0 +1,36 @@
+{
+  "$id": "c_sampleCustomFieldType",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "description": "A Sample Custom Field Type.",
+  "displayName": "Sample Custom Field Type",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "text",
+          "displayName": "Text",
+          "isRequired": false,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "MULTILINE",
+              "maxLength": 100000
+            }
+          }
+        },
+        {
+          "name": "photo",
+          "displayName": "Photo",
+          "isRequired": false,
+          "typeId": "image",
+          "type": {
+            "imageType": {
+              "isSimpleImage": true,
+              "unconstrainedAspectRatioAllowed": true
+            }
+          }
+        }
+      ]
+    }
+  }
+}

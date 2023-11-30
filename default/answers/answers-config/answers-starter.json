@@ -1,0 +1,182 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "answers-starter",
+  "name": "Answers",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "faqs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "name": "FAQs",
+      "savedSearchId": "40233348",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "name": {
+          "semanticTextSearch": true
+        }
+      },
+      "semanticVerticalIntents": [
+        "faqs",
+        "questions"
+      ],
+      "semanticVerticalThreshold": 0.2,
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "links": {
+      "apiKey": "REPLACE_API_KEY",
+      "cx": "REPLACE_CX_KEY",
+      "name": "Links",
+      "semanticVerticalIntents": [],
+      "siteRestricted": false,
+      "source": "GOOGLE_CSE",
+      "useSynonyms": "ALL_SYNONYMS"
+    },
+    "locations": {
+      "directAnswers": {
+        "fieldValues": {
+          "eligibleFields": [
+            "mainPhone"
+          ],
+          "predictionMode": "CLASSIFIER"
+        }
+      },
+      "entityTypes": [
+        "location"
+      ],
+      "name": "Locations",
+      "savedSearchId": "40238747",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "semanticVerticalIntents": [
+        "locations",
+        "locations near me"
+      ],
+      "semanticVerticalThreshold": 0.2,
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "products": {
+      "entityTypes": [
+        "product"
+      ],
+      "name": "Products",
+      "savedSearchId": "40244146",
+      "searchableFields": {
+        "brand": {
+          "facet": true,
+          "nlpFilter": true
+        },
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_productCategory": {
+          "facet": true,
+          "nlpFilter": true
+        },
+        "color": {
+          "facet": true,
+          "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        },
+        "parentProduct.name": {
+          "textSearch": true
+        },
+        "salesChannel": {
+          "facet": true
+        },
+        "size": {
+          "facet": true,
+          "nlpFilter": true
+        },
+        "stockStatus": {
+          "facet": true,
+          "nlpFilter": true
+        }
+      },
+      "semanticVerticalIntents": [
+        "products",
+        "items"
+      ],
+      "semanticVerticalThreshold": 0.2,
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  },
+  "synonyms": {
+    "oneWay": [],
+    "synonymSet": [
+      [
+        "location",
+        "office",
+        "offices",
+        "restaurant",
+        "restaurants",
+        "store",
+        "stores",
+        "place",
+        "facility"
+      ],
+      [
+        "faq",
+        "question",
+        "frequently asked questions"
+      ],
+      [
+        "product",
+        "buy",
+        "offer",
+        "shop"
+      ]
+    ]
+  },
+  "localizations": {},
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
+      "Locations near me",
+      "FAQs",
+      "Products"
+    ],
+    "verticalPrompts": {
+      "faqs": [
+        "[[name]]"
+      ],
+      "locations": [
+        "Locations near [[address.city]]",
+        "Locations near [[address.region]]",
+        "Locations near me"
+      ],
+      "products": [
+        "[[name]]"
+      ]
+    }
+  }
+}

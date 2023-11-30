@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.yext.com/config/km/settings/v1",
+  "primaryEntityType": "location",
+  "entityTypeSettings": [
+    {
+      "entityType": "ce_leadership",
+      "disabled": false
+    },
+    {
+      "entityType": "ce_menuItem",
+      "disabled": true
+    },
+    {
+      "entityType": "ce_service",
+      "disabled": true
+    },
+    {
+      "entityType": "ce_specialty",
+      "disabled": true
+    },
+    {
+      "entityType": "event",
+      "disabled": false
+    },
+    {
+      "entityType": "faq",
+      "disabled": false
+    },
+    {
+      "entityType": "job",
+      "disabled": false
+    },
+    {
+      "entityType": "location",
+      "disabled": false
+    },
+    {
+      "entityType": "product",
+      "disabled": false
+    },
+    {
+      "entityType": "restaurant",
+      "disabled": true
+    }
+  ]
+} 

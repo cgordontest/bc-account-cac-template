@@ -1,0 +1,26 @@
+{
+  "$id": "sample-directory",
+  "$schema": "https://schema.yext.com/config/pages/directory-manager/v1",
+  "name": "Sample Directory",
+  "baseEntities": {
+    "entityTypes": [
+      "location"
+    ]
+  },
+  "localization": {
+    "locales": [
+      "en-US"
+    ]
+  },
+  "root": {
+    "entityType": "location",
+    "slug": "sample"
+  },
+  "levels": [
+    {
+      "entityType": "location",
+      "field": "description",
+      "slug": "sample"
+    }
+  ]
+}

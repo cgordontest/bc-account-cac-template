@@ -1,0 +1,12 @@
+{
+  "$id": "basicSolution_product",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "basicSolution_Product-default",
+  "entityType": "product",
+  "fields": [
+    "c_activeInAnswers",
+    "c_primaryCTA",
+    "c_productCategory",
+    "c_secondaryCTA"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "$id": "c_customRichText",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "A Custom Rich Text v2 Field",
+  "displayName": "Custom Rich Text",
+  "group": "GROUP1",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "richTextV2Type": {
+      "maxLength": 100000
+    }
+  },
+  "typeId": "richTextV2"
+}

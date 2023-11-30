@@ -1,0 +1,23 @@
+{
+  "$id": "c_Demo_Facebook_Page_Views_by_Day83742",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Demo Facebook Page Views by Day",
+  "description": "Demo Facebook Page Views by Day",
+  "query": {
+    "metrics": [
+      "yext/DEMO_FACEBOOK_PAGE_VIEWS"
+    ],
+    "dimensions": [
+      "yext/DAYS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_14"
+      }
+    ]
+  },
+  "display": {
+    "line": {}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$id": "c_Demo_Total_Listings_Impressions_by_Day_and_Entity83743",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Demo Total Listings Impressions by Day and Entity",
+  "description": "Demo Total Listings Impressions by Day and Entity",
+  "query": {
+    "metrics": [
+      "yext/DEMO_TOTAL_LISTINGS_IMPRESSIONS"
+    ],
+    "dimensions": [
+      "yext/DAYS",
+      "yext/ENTITIES"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_14"
+      }
+    ]
+  },
+  "display": {
+    "bar": {
+      "style": "STACKED"
+    }
+  }
+}

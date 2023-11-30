@@ -1,0 +1,19 @@
+{
+  "$id": "sampleContentEndpoint",
+  "$schema": "https://schema.yext.com/config/streams/streams-endpoint/v2",
+  "name": "Sample Content Endpoint",
+  "stream": {
+    "source": "content",
+    "fields": [
+      "name",
+      "description",
+      "address",
+      "hours"
+    ]
+  },
+  "fieldIndexes": [
+    {
+      "field": "name"
+    }
+  ]
+}
