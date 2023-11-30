@@ -2,7 +2,6 @@
   "$schema": "https://schema.yext.com/config/chat/chat-bot/v1",
   "$id": "sample-chat-bot",
   "name": "Sample Chat Bot",
-  "identityContext": "Reply with information on locations within this account.",
   "initialMessage": "Hi! This is Sample Chat Bot. How can I help you?",
   "goals": {
     "ANSWER_QUESTION": {
@@ -16,7 +15,7 @@
       "instructions": [
         {
           "search": {
-            "experienceKey": "hamburger",
+            "experienceKey": "answers-starter",
             "instruction": "Use Yext Search to find the answer to the user\u0027s question"
           }
         },
